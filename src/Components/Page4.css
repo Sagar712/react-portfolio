@@ -1,0 +1,53 @@
+.page4{
+    background-color: rgb(36, 0, 12);
+    width: 100vw;
+    height: 100vh;
+}
+.contentContact{
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    height: 85vh;
+}
+.allinform2{
+    text-align: start;
+    text-align: justify;
+    width: 30vw;
+    transform: translateX(25%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.allinform3{
+    text-align: start;
+    text-align: justify;
+    width: 30vw;
+    transform: translateX(25%);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.downloadbtn{
+    height: 3rem;
+    width: 10rem;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    background-color: rgb(201, 0, 67);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.downloadbtn:active{
+    background-color: rgb(114, 0, 38);
+}
+.forma2{
+    width: 50vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

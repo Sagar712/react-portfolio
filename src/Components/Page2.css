@@ -1,0 +1,108 @@
+.page2{
+    background-image: url("../images/1971385.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: black;
+    transition: 0.2s ease;
+}
+
+.alltables{
+    margin-top: 5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    transform: translateY(5vh);
+}
+.tabl{
+    width: 30%;
+    outline: none;
+    border-collapse: collapse;
+    opacity: 0.8;
+    border-radius: 15px;
+    overflow: hidden;
+}
+tr{
+    text-align: center;
+    height: 5rem;
+}
+td{
+    border-top: 1px solid black;
+}
+th{
+    background-color: rgb(18, 34, 39);
+    color: white;
+    height: 8rem;
+    font-size: 1.3rem;
+    width: 50%;
+    font-weight: bold;
+}
+tr{
+    background-color: rgb(170, 188, 192);
+    font-weight: bold;
+}
+
+.skillline{
+    width: 7.3rem;
+    height: 2px;
+    background-color: rgb(133, 0, 51);
+    outline: none;
+    border: none;
+    margin: 4px 0;
+}
+
+@media screen and (max-width:960px){
+
+    .page2{
+        background-color: rgb(223, 223, 223);
+    }
+    .cotent1{
+        transform: translateX(0);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bar{
+        font-size: 1.5rem;
+        height: 100%;
+        width: 3.8rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        transition: 0.1s ease;
+    }
+    .bar.active{
+        background-color: maroon;
+        transition: 0.1s ease;
+    }
+    .alltables{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .tabl{
+        width: 90%;
+        margin: 0.5rem 0;
+        border-radius: 8px;
+        overflow: hidden;
+        transform: translateY(-3vh);
+    }
+    tr{
+        height: 3rem;
+    }
+    th,td{
+        height: 1rem;
+        width: 50%;
+    }
+    .titles{
+        text-align: start;
+        text-align: justify;
+        width: 95vw;
+        transform: translateX(0);
+    }
+
+}

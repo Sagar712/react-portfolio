@@ -1,0 +1,49 @@
+.page3{
+    background-image: url("../images/396538.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+}
+.content3{
+    display: flex;
+    transform: translateY(13vh);
+    align-items: center;
+}
+.titles{
+    text-align: start;
+    text-align: justify;
+    width: 40vw;
+    transform: translateX(53%);
+}
+.allInform{
+    font-size: 1.2rem;
+}
+
+img.pic2{
+    height: 60vh;
+    transform: translateX(10vw);
+    border-radius: 10px;
+}
+
+@media screen and (max-width:960px){
+    .content3{
+        display: flex;
+        flex-direction: column-reverse;
+        transform: translateY(1.5rem);
+        height: 80vh;
+        justify-content: space-between;
+        align-items: center;
+    }
+    img.pic2{
+        transform: translateY(0.5rem);
+        width: 80vw;
+        height: auto;
+        border-radius: 10px;
+    }
+    .allInform{
+        font-size: 1.1rem;
+    }
+}

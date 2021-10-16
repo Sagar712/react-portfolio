@@ -1,0 +1,159 @@
+.header{
+    width: 100vw;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(201, 0, 67);
+    position: sticky;
+    opacity: 1;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    /*animation: headerpop 1s forwards ease;*/
+}
+
+@keyframes headerpop{
+  from{
+      opacity: 0;
+  }
+  to{
+      opacity: 1;
+  }
+}
+
+.logo{
+  font-size: 1.6rem;
+  margin-left: 5vw;
+  color: white;
+  cursor: pointer;
+  
+}
+
+#itratee{
+  animation: itrr 3.5s infinite ease-in-out;
+  background: -webkit-linear-gradient(right,  rgb(224, 255, 47), rgb(69, 250, 93), rgb(0, 238, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes itrr{
+  0%{
+      transform: rotate(0);
+
+  }
+  28%{
+      transform: rotate(0);
+  }
+  50%{
+      transform: rotate(180deg);
+  }
+  72%{
+      transform: rotate(180deg);
+  }
+  100%{
+      transform: rotate(0deg);
+  }
+}
+
+.menuitems{
+  margin-right: 1vw;
+  width: 40%;
+  
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bar{
+  display: none;
+}
+
+.btnn{
+  color: white;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  height: 2.3rem;
+  width: 5rem;
+  background: transparent;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btnn:hover{
+  border:2px solid white;
+}
+.btnn:active{
+  border:2px solid white;
+  background-color: rgb(160, 0, 53);
+}
+
+
+@media screen and (max-width:960px){
+
+  .header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  .menuitems{
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      background-color: maroon;
+      top:3.5rem;
+      left:100vw;
+      transform: translate(0,0);
+      height: 20rem;
+      width: 12rem;
+      border-bottom-left-radius: 10px;
+      transition: 0.2s ease;
+  }
+  .rotateicon{
+      transform: rotate(0deg);
+      transition: all 0.3s ease;
+  }
+  .rotateicon.active{
+      transform: rotate(90deg);
+      transition: all 0.3s ease;
+  }
+  
+  .menuitems.active{
+      transform: translate(-100%,0);
+      transition: 0.2s ease;
+  }
+  .btnn{
+      height: 4rem;
+      width: 100%;
+      outline: none;
+      border-radius: 0;
+      font-size: 1.3rem;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+  }
+  .btnn:hover{
+      outline: none;
+      border: none;
+  }
+  .btnn:active{
+      outline: none;
+      border: none;
+  }
+  .bar{
+      font-size: 1.5rem;
+      height: 100%;
+      width: 3.8rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      transition: 0.1s ease;
+  }
+  .bar.active{
+      background-color: maroon;
+      transition: 0.1s ease;
+  }
+  
+}
