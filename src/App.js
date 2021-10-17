@@ -28,9 +28,9 @@ function App() {
       <Router>
       <Header incCnt={(PageId) => incCnt(PageId)}/>
       <div className="adjus"></div>
-      {/*curr_page*/}
+      {curr_page}
 
-      
+      {/*
         <Switch>
           
           <Route path="/skills">
@@ -57,7 +57,9 @@ function App() {
             <Page3/>
           </Route>
         </Switch>
+        */}
       </Router>
+      
       
       <Footer/>
       
