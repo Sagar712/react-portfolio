@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.424f02bd.chunk.css",
-    "main.js": "./static/js/main.450c2eb4.chunk.js",
-    "main.js.map": "./static/js/main.450c2eb4.chunk.js.map",
+    "main.js": "./static/js/main.74103ee2.chunk.js",
+    "main.js.map": "./static/js/main.74103ee2.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.213d1958.js",
     "runtime-main.js.map": "./static/js/runtime-main.213d1958.js.map",
     "static/js/2.37850175.chunk.js": "./static/js/2.37850175.chunk.js",
@@ -14,7 +14,7 @@
     "static/js/2.37850175.chunk.js.LICENSE.txt": "./static/js/2.37850175.chunk.js.LICENSE.txt",
     "static/media/Page3.css": "./static/media/390704.bbbfaad7.jpg",
     "static/media/Page2.css": "./static/media/5121.4395342a.jpg",
-    "static/media/Sagar Wankhade CV.7ee2b50f.pdf": "./static/media/Sagar Wankhade CV.7ee2b50f.pdf",
+    "static/media/Sagar Wankhade New CV.a6d03d95.pdf": "./static/media/Sagar Wankhade New CV.a6d03d95.pdf",
     "static/media/code.2cefb990.png": "./static/media/code.2cefb990.png",
     "static/media/mypic.6e0d4d11.jpg": "./static/media/mypic.6e0d4d11.jpg"
   },
@@ -22,6 +22,6 @@
     "static/js/runtime-main.213d1958.js",
     "static/js/2.37850175.chunk.js",
     "static/css/main.424f02bd.chunk.css",
-    "static/js/main.450c2eb4.chunk.js"
+    "static/js/main.74103ee2.chunk.js"
   ]
 }
